@@ -12,8 +12,6 @@ Identify optimal operating conditions for distillation columns
 
 Provide a comprehensive analysis framework for distillation optimization
 
-📁 Project Structure
-'''
 AI_Distillation_Surrogate_Model/
 ├── final_code.py              # Main implementation script
 ├── requirements.txt           # Python dependencies
@@ -31,8 +29,6 @@ AI_Distillation_Surrogate_Model/
     ├── parity_plots.png       # Actual vs predicted values
     ├── residual_distributions.png     # Error distributions
     └── taylor_diagrams.png    # Taylor diagrams for model evaluation
-    '''
-🛠️ Installation & Setup
 Prerequisites
 Python 3.8+
 
