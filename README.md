@@ -65,10 +65,13 @@ Feed Composition (xF)	0.2-0.95	Ethanol mole fraction in feed
 Feed Flow Rate (F)	70-130 kmol/h	Input flow rate
 Number of Stages (N)	20	Theoretical separation stages
 🎯 Output Targets
+
 Target	Range	Description
 Distillate Purity (xD)	0.2-0.956	Ethanol purity in distillate
 Reboiler Duty (QR)	200-1800 kW	Energy consumption in reboiler
+
 🤖 Machine Learning Models
+
 Polynomial Regression: Baseline model with polynomial features
 
 XGBoost: Advanced gradient boosting algorithm
@@ -86,7 +89,9 @@ Model	xD R²	QR R²	xD RMSE	QR RMSE
 Polynomial	0.892	0.956	0.018	45.2
 XGBoost	0.973	0.865	0.008	58.1
 Bagging	0.961	0.854	0.009	59.8
+
 🔍 Optimization Results
+
 Identified optimal configurations for different purity targets:
 
 R	xF	F	xD	QR (kW)
@@ -95,7 +100,9 @@ R	xF	F	xD	QR (kW)
 4.0	0.80	100	0.93	1150.0
 5.0	0.85	100	0.95	1400.0
 6.0	0.90	100	0.96	1650.0
+
 ⏱️ Expected Runtime
+
 Initial execution: 2-3 minutes
 
 Complete analysis: 5-7 minutes
@@ -103,6 +110,7 @@ Complete analysis: 5-7 minutes
 Output: 15+ files including data, plots, and results
 
 ✅ Verification
+
 Successful execution is confirmed by:
 
 Terminal message: "ANALYSIS COMPLETE"
@@ -112,6 +120,7 @@ AI_Distillation_Surrogate_Results folder creation
 Complete set of output files (CSV, PNG, JSON)
 
 📚 References
+
 Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system
 
 Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011
@@ -121,10 +130,10 @@ Geron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and Tensor
 👨‍💻 Author
 Vidhi Udasi
 VIT Bhopal University, Batch: 2023
-Autumn Internship Candidate
+Autumn Internship Candidate FOSSEE
 
 📄 License
-This project is created for educational and research purposes as part of a screening task for an AI/ML internship position.
+This project is created for educational and research purposes as part of a screening task for an AI/ML internship position at FOSSEE
 
 
 
